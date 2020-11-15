@@ -7,8 +7,14 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  opacity: 0.5;
 }
 .jumbo {
-  text-shadow: 2px 2px #cccccc;
+  text-shadow: 2px 2px #302e2e;
+}
+.card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: #cccccc;
 }
